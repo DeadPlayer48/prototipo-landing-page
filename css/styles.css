@@ -15,6 +15,22 @@ footer {
     margin-top: auto; /* Esto empuja el footer al final */
 }
 
+/* Tamaño del logo */
+#logo {
+    width: 70px; /* Aumentado */
+    height: 70px;
+}
+
+/* Asegurar que el slogan sea visible */
+#slogan {
+    color: #ccc;
+    min-height: 1.5em;
+    display: block;
+    font-style: italic;
+}
+
+
+
 @keyframes fadeInSlide {
     0% {
         opacity: 0;
@@ -34,4 +50,8 @@ h1 {
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
     filter: invert(100%) brightness(80%);
+}
+
+.carousel-item {
+    transition: transform 1s ease-in-out, opacity 1s ease-in-out;
 }
