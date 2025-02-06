@@ -29,9 +29,6 @@ footer {
     font-style: italic;
 }
 
-nav .nav-link {
-    font-size: 1.25rem; /* Ajusta el tamaño según lo necesites */
-}
 
 
 @keyframes fadeInSlide {
@@ -47,9 +44,6 @@ nav .nav-link {
 
 h1 {
     animation: fadeInSlide 1s ease-out;
-    white-space: nowrap; /* Evita que el texto pase a la siguiente línea */
-    
-    
 }
 
 
